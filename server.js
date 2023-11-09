@@ -15,7 +15,7 @@ switch(req.url){
         path += 'index.html';
         res.statusCode= 200;
         break;
-    case '/about':
+    case '/about': //redirects
         path += 'about.html';
         res.statusCode= 200;
         break;
